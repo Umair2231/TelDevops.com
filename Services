@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="IT, Telecoms and DevOps Services Provider" />
+  <title>IT, Telecoms & DevOps Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #005792;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .service {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .service h3 {
+      margin-top: 0;
+      color: #005792;
+    }
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #005792;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>IT, Telecoms & DevOps Services Provider</h1>
+    <p>Reliable technology solutions for businesses of all sizes.</p>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>IT Services</h3>
+        <p>We offer managed IT support, infrastructure setup, cybersecurity, and cloud migration tailored to your business needs.</p>
+      </div>
+      <div class="service">
+        <h3>Telecoms</h3>
+        <p>From VoIP phone systems to network optimization and unified communications, we connect your business with reliable telecom solutions.</p>
+      </div>
+      <div class="service">
+        <h3>DevOps</h3>
+        <p>Streamline your software delivery pipeline with CI/CD implementation, containerization, monitoring, and automation services.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>📧 Email: <a href="mailto:contact@example.com">contact@e
